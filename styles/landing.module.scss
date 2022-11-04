@@ -1,0 +1,52 @@
+@import "variables.module";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+.container {
+  margin: 0;
+  // display: flex;
+justify-content: center;
+text-align: center;
+display: block;
+margin: 0 auto;
+  // font-size: 84px;
+  // margin-top: 2em;
+  // background-color: red;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 0.5em;
+  justify-content: center;
+
+}
+.hero{
+  background-image: url(../tracking-your-spending_hero.webp);
+  background-position: center;
+  background-size: cover;
+  padding: 11% 0;
+  text-align: center;
+  
+}
+.typo{  font-family: 'Oswald', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+  color: #ffffff;
+}
+.login-button {
+  background-color: red;
+}
+.nav1{
+  display: flex;
+  justify-content: space-between;
+  ;
+  background-color: purple;
+  padding: 1rem 5%;
+  color: white;
+  font-weight: 600;
+}
+@media screen and (max-width: 500px) {
+  .nav1{
+ display: none;
+}
+}
